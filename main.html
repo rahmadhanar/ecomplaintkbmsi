@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+	<title>E-COMPLAINT</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/form.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="change-if-small">
+	<nav class="navbar navbar-default navbar-static-top visible-xs" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">	
+					<span class="bar1"></span>
+					<span class="bar2"></span>
+					<span class="bar3"></span>
+				</div>
+				<!-- <a class="navbar-brand" href="#">Brand</a> -->
+
+			</div>
+			<div class="collapse navbar-collapse" id="main-menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" class="">Home</a></li>
+					<li><a href="main.html" class="">E-Complain</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs" id="col-no-padding">
+		<div class="bg-left">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="box-color-one wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+					<img src="assets/team.png" alt="" class="img-responsive">
+					<p>KOLABORATIF</p>
+				</div>
+				<div class="box-color-two wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.8s">
+					<img src="assets/phone-call.png" alt="" class="img-responsive">
+					<p>KOMUNIKATIF</p>
+				</div>
+				<div class="box-color-three wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.5s">
+					<img src="assets/puzzle.png" alt="" class="img-responsive">
+					<p>ASPIRATIF</p>
+				</div>
+				<div class="box-color-four wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.2s">
+					<img src="assets/mail.png" alt="" class="img-responsive">
+					<p>SOLUTIF</p>
+				</div>
+				<div class="box-color-five wow fadeInDown" data-wow-duration="1s" data-wow-delay="3s">
+					<img src="assets/select-tool.png" alt="" class="img-responsive">
+					<p>SELEKTIF</p>
+				</div>
+				<div class="box-color-six wow fadeInLeft" data-wow-duration="1s" data-wow-delay="3.5s">
+					<img src="assets/touch-screen.png" alt="" class="img-responsive">
+					<p>AKTIF</p>
+				</div>
+				<div class="hidden-xs">
+					<img src="assets/rec1.png" alt="" class="img-responsive" id="rec-one">
+					<img src="assets/rec1.png" alt="" class="img-responsive" id="rec-two">
+					<img src="assets/rec1.png" alt="" class="img-responsive" id="rec-three">
+					<img src="assets/rec1.png" alt="" class="img-responsive" id="rec-four">
+					<img src="assets/rec1.png" alt="" class="img-responsive" id="rec-five">
+					<img src="assets/pth3.png" alt="" class="img-responsive" id="bg-bottom">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="bg-small">
+		<h3 class="text-center wow fadeInUp" id="head-caption" data-wow-duration="1s" data-wow-delay="0.5s">E-Complaint</h3>
+		<p class="text-center wow fadeInLeft" id="help-caption" data-wow-duration="1s" data-wow-delay="1s">Semangat Pagi, KBMSI!
+		Yuk tuangkan permasalahan kalian mengenai Fasilitas, Tata Kelola, dan permasalahan yang lainnya!</p>
+		<div class="box-form wow fadeInDown" data-wow-duration="1s" data-wow-delay="2s">
+			<form>
+				<input placeholder="&#xF007; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nama Lengkap" id="iconified" class="empty" type="text"  value="" required>
+				<input placeholder="&#xf2c2; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NIM" id="iconified" class="empty" type="text"  value="" required>
+				<input placeholder="&#xf12e; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No.Hp" id="iconified" class="empty" type="text"  value="" required>
+				<select name="" id="">
+					<option value="">Angkatan</option>
+					<option value="">2017</option>
+					<option value="">2016</option>
+					<option value="">2015</option>
+					<option value="">2014</option>
+					<option value="">2013</option>
+				</select>
+				<select name="" id="">
+					<option value="">Masalah Terkait</option>
+					<option value="">Akademik</option>
+					<option value="">UKT</option>
+					<option value="">Tata Kelola</option>
+					<option value="">Lainnya</option>
+				</select>
+				<select name="" id="">
+					<option value="">Masalah Terkait</option>
+					<option value="">Akademik</option>
+					<option value="">UKT</option>
+					<option value="">Tata Kelola</option>
+					<option value="">Lainnya</option>
+				</select>
+				<!-- <input placeholder="Email address" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
+					<span class="validation-text">Please enter a valid email address.</span> -->
+					<div class="flex">
+						<textarea placeholder="&#xf18d; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Keluhan" id="iconified" class="empty" rows="1" required></textarea>
+					</div>
+					<button onclick="myFunction()">Submit &nbsp;&nbsp;<i class="fa fa-chevron-right"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<h3>Modal Body</h3>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/form.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script>
+		/* for demonstration purposes only */
+		$('.navbar-toggle').click(function(){
+			if( $(this).hasClass('collapsed') ){
+				$(this).removeClass('collapsed');
+			}else{
+				$(this).addClass('collapsed');
+			}
+		})
+
+		$('#iconified').on('keyup', function() {
+			var input = $(this);
+			if(input.val().length === 0) {
+				input.addClass('empty');
+			} else {
+				input.removeClass('empty');
+			}
+		});
+
+		function myFunction() {
+			alert("Data telah berhasil disimpan!");
+		}
+
+	</script>
+</body>
+</html>
